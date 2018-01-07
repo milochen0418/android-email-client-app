@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- header area -->
+    <TextView android:id="@+id/connection_error_text"
+        style="?android:attr/listViewWhiteStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:gravity="center"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:background="@color/connection_error_banner" />
+
+</merge>

@@ -1,0 +1,17 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+	<LinearLayout android:id="@+id/LinearLayout021" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1">
+		<Button android:text="@string/backkey_action" android:id="@+id/backkey" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout022" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1">
+		<Button android:text="@string/refresh_action" android:id="@+id/refresh" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/compose_action" android:id="@+id/compose" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/deselect_all_action" android:id="@+id/deselect_all" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1" android:enabled="false"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout023" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1" android:gravity="center">
+		<Button android:text="@string/folders_action" android:id="@+id/folders" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/accounts_action" android:id="@+id/accounts" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/account_settings_action" android:id="@+id/account_settings" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+</LinearLayout>
+</merge>

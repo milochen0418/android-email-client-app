@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This menu is shown when MessageList is viewing a smart-folder mailbox. -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/refresh"
+        android:alphabeticShortcut="r"
+        android:title="@string/refresh_action"
+        android:icon="@*android:drawable/ic_menu_refresh"
+    />
+    <item android:id="@+id/compose"
+        android:alphabeticShortcut="c"
+        android:title="@string/compose_action"
+        android:icon="@*android:drawable/ic_menu_compose"
+    />
+    <item android:id="@+id/accounts"
+        android:title="@string/accounts_action"
+        android:icon="@*android:drawable/ic_menu_account_list"
+    />
+    <group android:id="@+id/deselect_all_group">
+        <item android:id="@+id/deselect_all"
+            android:title="@string/deselect_all_action"
+            android:icon="@drawable/ic_menu_email_deselect_mail"
+        />
+    </group>
+</menu>

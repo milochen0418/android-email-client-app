@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingRight="8dip">
+    <View
+        android:id="@+id/chip"
+        android:background="@drawable/appointment_indicator_leftside_1"
+        android:layout_width="4dip"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@+id/folder_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_list_folder"
+        android:paddingLeft="2dip" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dip">
+        <TextView
+            android:id="@+id/mailbox_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:attr/textColorPrimary" />
+        <TextView
+            android:id="@+id/mailbox_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorTertiary" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/new_message_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        style="@style/unreadCount"/>
+</LinearLayout>

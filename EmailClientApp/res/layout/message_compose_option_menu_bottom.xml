@@ -1,0 +1,19 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical"
+        android:paddingTop="5dip" android:paddingLeft="4dip" android:paddingRight="4dip" android:paddingBottom="1dip" android:background="@android:drawable/bottom_bar" 
+>
+	<LinearLayout android:id="@+id/LinearLayout023" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1" android:gravity="center">
+		<Button android:text="@string/add_cc_bcc_action" android:id="@+id/add_cc_bcc" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/add_attachment_action" android:id="@+id/add_attachment" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+	
+	<!--  The buttons are move from message_compose.xml  -->
+	<LinearLayout android:id="@+id/LinearLayout024" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1" android:gravity="center">	
+		<Button android:id="@+id/send" android:text="@string/send_action" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="1" />
+        <Button android:id="@+id/save" android:text="@string/save_draft_action" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="1" />
+        <Button android:id="@+id/discard" android:text="@string/discard_action" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="1" />
+	</LinearLayout>	
+	
+	
+</LinearLayout>
+</merge>

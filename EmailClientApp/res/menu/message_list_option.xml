@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This menu is shown when MessageList is viewing a regular mailbox. -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/refresh"
+        android:alphabeticShortcut="r"
+        android:title="@string/refresh_action"
+        android:icon="@*android:drawable/ic_menu_refresh"
+    />
+    <item android:id="@+id/compose"
+        android:alphabeticShortcut="c"
+        android:title="@string/compose_action"
+        android:icon="@*android:drawable/ic_menu_compose"
+    />
+    <group android:id="@+id/deselect_all_group">
+        <item android:id="@+id/deselect_all"
+            android:title="@string/deselect_all_action"
+            android:icon="@drawable/ic_menu_email_deselect_mail"
+        />
+    </group>
+    <item android:id="@+id/folders"
+        android:title="@string/folders_action"
+        android:icon="@drawable/ic_menu_folder"
+    />
+    <item android:id="@+id/accounts"
+        android:title="@string/accounts_action"
+        android:icon="@*android:drawable/ic_menu_account_list"
+    />
+    <item android:id="@+id/account_settings"
+        android:title="@string/account_settings_action"
+        android:icon="@android:drawable/ic_menu_preferences"
+    />
+</menu>

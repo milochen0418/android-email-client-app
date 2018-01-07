@@ -1,0 +1,12 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+	<LinearLayout android:id="@+id/LinearLayout021" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1">
+		<Button android:text="@string/backkey_action" android:id="@+id/backkey" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout022" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_weight="1">
+		<Button android:text="@string/refresh_action" android:id="@+id/check_mail" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/compose_action" android:id="@+id/compose" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+		<Button android:text="@string/add_account_action" android:id="@+id/add_new_account" android:layout_width="0dip" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+</LinearLayout>
+</merge>
